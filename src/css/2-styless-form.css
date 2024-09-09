@@ -1,0 +1,73 @@
+body, p {
+  margin: 0;
+  padding: 0;
+
+}
+
+.div-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  width: 408px;
+  height: 296px;
+}
+
+.label-one {
+
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.email-style {
+  width: 360px;
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.textarea {
+  width: 360px;
+  height: 80px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.btn {
+  border-radius: 8px;
+  border: #4e75ff;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  background: #4e75ff;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #6c8cff;
+}
